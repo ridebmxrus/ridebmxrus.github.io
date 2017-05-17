@@ -1,0 +1,40 @@
+body {
+		background-image: url(?D:\#MediaFiles\PICS\TheUpperDirt.jpg);
+		background-color: #959595;
+		}
+			
+.full_screen_video {
+		position: relative;
+		width: 90%;
+		height: 90%;
+		padding-bottom: 56.25%;
+		}
+				
+.video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 90%;
+		height: 90%;
+		}
+				
+h1 {
+		margin-top: 10pt;
+		margin-bottom: 5pt;
+		color: #ffffff;
+		font: 150% "Helvetica Neue", Helvetica, Arial, sans-serif
+		}
+			
+h1div {
+		margin: auto;
+		}
+		
+/*<!#video21 {
+			 position: relative;
+			 padding-bottom: 100%;
+			}
+#video21 iframe {
+			  position: absolute;
+			  width: calc(100%);
+			  height: calc(100% - 300px*3/4);
+			}> */
