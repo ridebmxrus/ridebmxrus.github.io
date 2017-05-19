@@ -29,6 +29,37 @@ h1div {
 		margin: auto;
 		}
 		
+		@-webkit-keyframes bg-slide {
+    from { transform: translate(0, 0); }
+    to { transform: translate(-50%, 50%); }
+}
+
+.wrapper {
+    position:relative;
+    width:400px;
+	  height: 400px;
+    overflow:hidden;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    color: #000;
+}
+
+.bg {
+	width: 200%;
+  height: 200%;
+  background: url(http://oksancia.com/wp-content/uploads/2011/03/plants_kimono_seamless_pattern_wm.png) repeat;
+    background-size: 50%;
+	  position:absolute;
+    top: -100%;
+    bottom: 0;
+    left: 0;
+    animation: bg-slide 10s linear infinite;
+}
+
 /*<!#video21 {
 			 position: relative;
 			 padding-bottom: 100%;
